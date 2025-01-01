@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/nav/navbar"
 import { Hero } from "@/components/hero/hero"
+import { Visualize } from "@/components/visualize/visualize"
 
 const animations = ['animate-twinkle', 'animate-twinkle-slow', 'animate-twinkle-fast'];
 
@@ -47,6 +48,7 @@ export default function Home() {
       </div>
       <Navbar />
       <Hero />
+      <Visualize />
     </div>
   )
 }
