@@ -82,7 +82,7 @@ const AuthComponent = ({ mode = 'signin' }: AuthComponentProps) => {
             <div className="grid gap-6">
               <Button 
                 variant="outline" 
-                className="w-full border-[#9333EA] bg-[#0A0A0A] text-white hover:bg-[#1A1A1A]"
+                className="w-full bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 text-white"
                 onClick={signIn}
               >
                 <Chrome className="mr-2 h-4 w-4" />
